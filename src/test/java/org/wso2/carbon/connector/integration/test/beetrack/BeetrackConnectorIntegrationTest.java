@@ -18,10 +18,6 @@
 
 package org.wso2.carbon.connector.integration.test.beetrack;
 
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -29,6 +25,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.wso2.connector.integration.test.base.ConnectorIntegrationTestBase;
 import org.wso2.connector.integration.test.base.RestResponse;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BeetrackConnectorIntegrationTest extends ConnectorIntegrationTestBase {
    
@@ -44,7 +44,7 @@ public class BeetrackConnectorIntegrationTest extends ConnectorIntegrationTestBa
    @BeforeClass(alwaysRun = true)
    public void setEnvironment() throws Exception {
    
-      init("beetrack-connector-1.0.0");
+      init("beetrack-connector-1.0.1-SNAPSHOT");
       
       esbRequestHeadersMap = new HashMap<String, String>();
       apiRequestHeadersMap = new HashMap<String, String>();
