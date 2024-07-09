@@ -4,7 +4,7 @@
     "category": "Other",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Beetrack+Connector",
     "description": "The Beetrack connector allows you to access the Beetrack REST API through WSO2 ESB. Beetrack allows you to control your fleet and improve the productivity of your logistic operation through a simple, efficient and always-available platform, designed to help you deliver the best shopping experience to your customers.",
-    "status": "Unsupported",
+    "status": "Active",
     "labels": [
         "connector"
     ],
